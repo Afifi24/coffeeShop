@@ -3,14 +3,37 @@
 @tailwind utilities;
 
 
+:root{
+--color-black: #000;
+--color-white: #fff;
+--color-text-1: #fafafa;
+--color-brand-1: #56adb6;
+--color-brand-2: #498c93;
+--color-brand-3: #419299;
+--color-brand-4: #4ba1a9;
+--color-brand-5: #b5d2c8;
+--color-brand-6: #6cb9c0;
+--color-brand-7: #50a3ab;
+--color-cream-1: #efead5;
+--color-cream-2: #e8ddac;
+--color-accent-1: #ffcb31;
+}
+
 .shaddow {
     box-shadow: -4px 4px 0px #E2DAB7;
 }
-.variant__media-inner img {
-    transform-origin: center;
-    animation: b-variant-floating-inner 7s alternate infinite ease-in-out;
-}
 
 .headerbg{
-    background: linear-gradient(to right,#4A8E96,#6DAFB5);
+    background: linear-gradient(to right,#4A8E96,#6cb9c0,#6DAFB5);
+}
+.croissantsbg{
+    background: linear-gradient(to right,#3E9FA8,#3E9FA8,#3EA0A9);
+}
+h1{
+    color: var(--color-cream-1);
+    font-weight: bold;
+}
+p{
+    color: var(--color-text-1);
+    font-family: Comfortaa;
 }
