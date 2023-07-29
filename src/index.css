@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.shaddow {
+    box-shadow: -4px 4px 0px #E2DAB7;
+}
+.variant__media-inner img {
+    transform-origin: center;
+    animation: b-variant-floating-inner 7s alternate infinite ease-in-out;
+}
+
+.headerbg{
+    background: linear-gradient(to right,#4A8E96,#6DAFB5);
+}
