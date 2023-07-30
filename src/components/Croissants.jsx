@@ -6,7 +6,7 @@ import {motion} from 'framer-motion'
  const Croissants = () => {
   return (
     <div className='min-h-[100vh] croissantsbg '>
-         <div className='w-[95%]  md:w-[90%] m-auto py-10 '>
+         <div className='w-[95%]  md:w-[90%] m-auto pt-10 '>
             <h1 className='md:text-6xl text-5xl font-Lumanosimo underline'>Croissants</h1>
              <p className='mt-4 md:ml-24 text-center md:text-left'>The buttery king of the continental breakfast. <br className='hidden md:flex' />Find your favourite variety.</p>
             <div className='mt-28'>
@@ -26,7 +26,7 @@ import {motion} from 'framer-motion'
                    }}
                   >
                    <SwiperSlide>
-                      <div className='flex  gap-3 items-center justify-center flex-col'>
+                      <div className='flex   gap-3 items-center justify-center flex-col'>
                          <motion.div className=' border1'>
                          <img src="https://lacremamalta.com/wp-content/uploads/2023/04/Chocolate_Croissant-La_Crema_Malta_home-480x480.png.webp" alt="" />
                          </motion.div>
