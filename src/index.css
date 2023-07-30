@@ -21,7 +21,7 @@
 }
 
 .shaddow {
-    box-shadow: -4px 4px 0px #E2DAB7;
+    box-shadow: 4px 4px 0px #E2DAB7;
 }
 
 .headerbg{
@@ -30,9 +30,16 @@
 .croissantsbg{
     background: linear-gradient(to right,#3E9FA8,#3E9FA8,#3EA0A9);
 }
+.herobg{
+    background-color: var(--color-cream-1);
+}
 h1{
     color: var(--color-cream-1);
     font-weight: bold;
+}
+h2{
+   color: var(--color-brand-2);
+   font-weight: bold;
 }
 p{
     color: var(--color-text-1);
@@ -57,4 +64,10 @@ p{
 .border5{
     background-color: var(--color-brand-2);
     border-radius: 49% 51% 47% 53% / 64% 69% 31% 36%    ;
+}
+
+#hero p{
+    color: var(--color-brand-2);
+    margin: 12px 0px;
+    font-size: 18px;
 }

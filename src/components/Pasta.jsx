@@ -3,12 +3,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import {motion} from 'framer-motion'
 
- const Pizza = () => {
+ const Pasta = () => {
   return (
     <div className='min-h-[100vh] croissantsbg '>
          <div className='w-[95%]  md:w-[90%] m-auto py-28 '>
-            <h1 className='text-6xl font-Lumanosimo underline'>Pizzas</h1>
-             <p className='mt-4 md:ml-24 text-center md:text-left'>Homemade dough, fresh ingredients, <br className='hidden md:flex' /> and slices of perfection.</p>
+            <h1 className='text-6xl font-Lumanosimo underline'>Pasta</h1>
+             <p className='mt-4 md:ml-24 text-center md:text-left'>Delicious pasta deshes made with fresh, <br className='hidden md:flex' /> authentic ingredients.</p>
             <div className='my-28'>
                <Swiper
                   spaceBetween={50}
@@ -34,62 +34,43 @@ import {motion} from 'framer-motion'
                    <SwiperSlide>
                       <div className='flex gap-3 items-center justify-center flex-col'>
                          <motion.div className=' border1'>
-                         <img src="https://lacremamalta.com/wp-content/uploads/2023/04/margherita_pizza-la_crema_malta_home-480x480.png.webp" alt="" />
+                         <img src="https://lacremamalta.com/wp-content/uploads/2023/04/Pasta_Amatriciana-La_Crema_Malta_home-480x480.png.webp" alt="" />
                          </motion.div>
-                         <p>Margherita Pizza</p>
+                         <p>Amatriciana</p>
                       </div>
                    </SwiperSlide>
                    <SwiperSlide>
                       <div className='flex gap-3 items-center justify-center flex-col'>
                         <motion.div className=' border2'>
-                         <img src="https://lacremamalta.com/wp-content/uploads/2023/04/Napoli_Pizza-La_Crema__Malta_home-480x480.png.webp" alt="image" />
+                         <img src="https://lacremamalta.com/wp-content/uploads/2023/04/Parmigiana-La_Crema_Malta_home-480x480.png.webp" alt="image" />
                          </motion.div>
-                         <p>Napoli Pizza</p>
+                         <p>Parmagiana</p>
                       </div>
                    </SwiperSlide>
                    <SwiperSlide>
                       <div className='flex gap-3 items-center justify-center flex-col'>
                         <motion.div className=' border3'>
-                         <img src="https://lacremamalta.com/wp-content/uploads/2023/04/Friarielli_e_salsiccia_pizza-La_Crema_Malta_home-480x480.png.webp" alt="image" />
+                         <img src="https://lacremamalta.com/wp-content/uploads/2023/04/Pasta_Pistachiosa-La_Crema_Malta_home-480x480.png.webp" alt="image" />
                          </motion.div>
-                         <p>Friarielli E Salsiccia</p>
+                         <p>Pistacchiosa</p>
                       </div>
                    </SwiperSlide>
                    <SwiperSlide>
                       <div className='flex gap-3 items-center justify-center flex-col'>
                         <motion.div className=' border4'>
-                         <img src="https://lacremamalta.com/wp-content/uploads/2023/04/Pizza_Vegetariana-La_Crema_Malta_home-480x480.png.webp" alt="image" />
+                         <img src="https://lacremamalta.com/wp-content/uploads/2023/04/Pasta_Carbonara-La_Crema_Malta_home-480x480.png.webp" alt="image" />
                          </motion.div>
-                         <p>Vegeteriana Pizza</p>
+                         <p> Carbonara</p>
                       </div>
                    </SwiperSlide>
                    <SwiperSlide>
                       <div className='flex gap-3 items-center justify-center flex-col'>
                          <motion.div className=' border5'>
-                         <img src="https://lacremamalta.com/wp-content/uploads/2023/04/Calzone_Classico-La_Crema_Malta_home-480x480.png.webp" alt="image" />
+                         <img src="https://lacremamalta.com/wp-content/uploads/2023/04/Pasta_Pesto-La_Crema_Malta_home-480x480.png.webp" alt="image" />
                          </motion.div>
-                         <p>Calzone Classico</p>
+                         <p>Pesto</p>
                       </div>
                    </SwiperSlide>
-                   <SwiperSlide>
-                      <div className='flex gap-3 items-center justify-center flex-col'>
-                      <motion.div className=' border3'>
-                         <img src="https://lacremamalta.com/wp-content/uploads/2023/04/Pizza_La_Crema-La_Crema_Malta_home-480x480.png.webp" alt="image" />
-                         </motion.div>
-                         <p>La Creme Pizza</p>
-                      </div>
-                   </SwiperSlide>
-                   <SwiperSlide>
-                      <div className='flex gap-3 items-center justify-center flex-col'>
-                        <motion.div className=' border2'>
-                         <img src="https://lacremamalta.com/wp-content/uploads/2023/04/Pizza_Balluta-La_Crema_Malta_home-480x480.png.webp" alt="image" />
-                         </motion.div>
-                         <p>Balluta Pizza</p>
-                      </div>
-                   </SwiperSlide>
-                   
-                   
-      
                </Swiper>
             </div>
         </div>
@@ -97,4 +78,4 @@ import {motion} from 'framer-motion'
   )
 }
 
-export default Pizza
+export default Pasta

@@ -7,12 +7,11 @@ import {motion} from 'framer-motion'
   return (
     <div className='min-h-[100vh] croissantsbg '>
          <div className='w-[95%]  md:w-[90%] m-auto py-10 '>
-            <h1 className='text-6xl font-Lumanosimo underline'>Croissants</h1>
-             <p className='mt-4 ml-24'>The buttery king of the continental breakfast. <br />Find your favourite variety.</p>
+            <h1 className='md:text-6xl text-5xl font-Lumanosimo underline'>Croissants</h1>
+             <p className='mt-4 md:ml-24 text-center md:text-left'>The buttery king of the continental breakfast. <br className='hidden md:flex' />Find your favourite variety.</p>
             <div className='mt-28'>
                <Swiper
                   spaceBetween={50}
-                  slidesPerView={3}
                    grabCursor= {true}
                    breakpoints={{
                      640: {
