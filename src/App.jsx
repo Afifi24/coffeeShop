@@ -6,6 +6,7 @@ import Pizza from './components/Pizza'
 import Pasta from './components/Pasta'
 import Hero from './components/Hero'
 import Feeders from './components/Feeders'
+import Visite from './components/Visite'
 const App = () => {
   return (
     <div className=''>
@@ -16,6 +17,7 @@ const App = () => {
       <Pasta/>
       <Hero/>
       <Feeders/>
+      <Visite/>
     </div>
   )
 }
