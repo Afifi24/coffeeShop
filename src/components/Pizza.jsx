@@ -6,7 +6,7 @@ import {motion} from 'framer-motion'
  const Pizza = () => {
   return (
     <div className='min-h-[100vh] croissantsbg '>
-         <div className='w-[95%]  md:w-[90%] m-auto py-28 '>
+         <div className='w-[95%]  md:w-[90%] m-auto pt-28 pb-8 '>
             <h1 className='text-6xl font-Lumanosimo underline'>Pizzas</h1>
              <p className='mt-4 md:ml-24 text-center md:text-left'>Homemade dough, fresh ingredients, <br className='hidden md:flex' /> and slices of perfection.</p>
             <div className='my-28'>

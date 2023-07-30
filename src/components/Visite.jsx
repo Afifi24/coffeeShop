@@ -5,7 +5,7 @@ const Visite = () => {
   return (
     <div className='min-h-[100vh] herobg py-20'>
         <div className=' w-[90%] m-auto md:w-[95%]'>
-             <h2 className='text-center text-5xl md:text-7xl font-Comfortaa'>Why don't you <br /> come over?</h2>
+             <h2 className='text-center text-5xl md:text-7xl font-Lumanosimo'>Why don't you <br /> come over?</h2>
             <div className='flex items-center justify-center'>
             <div className='mt-32 max-w-3xl flex items-center flex-col md:flex-row gap-4 md:gap-10'>
                   <div className='flex-1'>

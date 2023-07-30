@@ -7,6 +7,7 @@ import Pasta from './components/Pasta'
 import Hero from './components/Hero'
 import Feeders from './components/Feeders'
 import Visite from './components/Visite'
+import Footer from './components/Footer'
 const App = () => {
   return (
     <div className=''>
@@ -18,6 +19,7 @@ const App = () => {
       <Hero/>
       <Feeders/>
       <Visite/>
+      <Footer/>
     </div>
   )
 }
