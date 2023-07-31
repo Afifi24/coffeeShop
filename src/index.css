@@ -20,6 +20,12 @@
 /* #3F9198 */
 }
 
+.navbar{
+    background-color: transparent;
+}
+.navbar.active{
+    background-color:#4D9199 ;
+}
 .shaddow {
     box-shadow: 4px 4px 0px #E2DAB7;
 }

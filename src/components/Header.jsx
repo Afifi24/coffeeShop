@@ -3,7 +3,7 @@ import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import {motion} from 'framer-motion'
 const Header = () => {
   return (
-    <div className='min-h-[100vh] mt-[6rem] flex items-start py-6 headerbg'>
+    <div className='min-h-[100vh]  flex items-start py-6 headerbg'>
       <div className=' w-[95%]  md:w-[90%] m-auto flex lg:flex-row flex-col  items-center    '>
           <div className='text-white flex-1 -mt-20 lg:-mt-0  order-2 lg:order-1 flex  justify-start  flex-col'>
             <h1 className=' text-5xl font-Lumanosimo xs:text-4xl sm:text-5xl text-center lg:text-left lg:text-8xl  '>Follow <br/> Your taste</h1>
