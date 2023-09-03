@@ -8,7 +8,7 @@ const Header = () => {
   const {textEnter,textLeave} = useContext(ContextAPI)
   return (
     <div className='min-h-[100vh]  flex items-start py-6 headerbg'>
-      <div className=' w-[95%]  md:w-[90%] m-auto flex lg:flex-row flex-col  items-center    '>
+      <div className=' w-[95%]  md:w-[90%] m-auto flex lg:flex-row flex-col gap-10 md:gap-0 items-center    '>
           <motion.div variants={Titleanim} className='text-white flex-1 -mt-20 lg:-mt-0  order-2 lg:order-1 flex  justify-start  flex-col'>
             <h1 className=' text-5xl font-Lumanosimo xs:text-4xl sm:text-5xl text-center lg:text-left lg:text-8xl  '><span onMouseEnter={textEnter}  onMouseLeave={textLeave}>Follow</span> <br/> <span onMouseEnter={textEnter}  onMouseLeave={textLeave} >Your taste</span></h1>
             <p className='m-4  font-Comfortaa text-center lg:text-left font-semibold'>Activate your afternoon with something delicious</p>

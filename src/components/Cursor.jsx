@@ -5,7 +5,7 @@ const Cursor = () => {
     const {changeanim,animation}= useContext(ContextAPI)
    
   return (
-        <motion.div variants={animation} animate={changeanim} className='h-6 w-6 rounded-full bg-black fixed  pointer-events-none z-40'/>
+        <motion.div variants={animation} animate={changeanim} className='h-6 w-6 hidden md:flex rounded-full bg-black fixed  pointer-events-none z-40'/>
     
   )
 }
