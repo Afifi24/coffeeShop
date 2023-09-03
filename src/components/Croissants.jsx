@@ -1,15 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import {motion} from 'framer-motion'
-
+import { ContextAPI } from '../contextAPI/context';
  const Croissants = () => {
+
+   const {textEnter,textLeave,slideHove} = useContext(ContextAPI)
   return (
     <div className='min-h-[100vh] croissantsbg '>
          <div className='w-[95%]  md:w-[90%] m-auto pt-10 '>
-            <h1 className='md:text-6xl text-5xl font-Lumanosimo underline'>Croissants</h1>
+            <h1 className='md:text-6xl text-5xl font-Lumanosimo underline'><span onMouseLeave={textLeave} onMouseEnter={textEnter}>Croissants</span></h1>
              <p className='mt-4 md:ml-24 text-center md:text-left'>The buttery king of the continental breakfast. <br className='hidden md:flex' />Find your favourite variety.</p>
-            <div className='mt-28'>
+            <div onMouseEnter={slideHove} onMouseLeave={textLeave}  className='mt-28'>
                <Swiper
                   spaceBetween={50}
                    grabCursor= {true}

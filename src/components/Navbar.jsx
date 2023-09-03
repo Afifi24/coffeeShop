@@ -1,7 +1,5 @@
 import React,{useState,useContext} from 'react'
-import logo from '../assets/logo.jpeg'
 import crema from '../assets/crema.jpeg'
-import {FaBars} from 'react-icons/fa'
 import {IoLogoWhatsapp} from 'react-icons/io'
 import {BiMenuAltRight} from 'react-icons/bi'
 import Navmenu from './Navmenu'

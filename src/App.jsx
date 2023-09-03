@@ -8,9 +8,13 @@ import Hero from './components/Hero'
 import Feeders from './components/Feeders'
 import Visite from './components/Visite'
 import Footer from './components/Footer'
+import Cursor from './components/Cursor'
+import {Pageanim} from './components/Animation'
+import {motion} from 'framer-motion'
 const App = () => {
   return (
-    <div className=''>
+    <motion.div variants={Pageanim} initial='hidden' animate='show'>
+      <Cursor/>
       <Navbar/>
       <Header/>
       <Croissants/>
@@ -20,7 +24,7 @@ const App = () => {
       <Feeders/>
       <Visite/>
       <Footer/>
-    </div>
+    </motion.div>
   )
 }
 

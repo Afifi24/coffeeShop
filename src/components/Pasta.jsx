@@ -1,23 +1,24 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import {motion} from 'framer-motion'
+import { ContextAPI } from '../contextAPI/context';
 
  const Pasta = () => {
+   const {textEnter,textLeave,slideHove} = useContext(ContextAPI)
+
   return (
     <div className='min-h-[100vh] croissantsbg '>
          <div className='w-[95%]  md:w-[90%] m-auto pb-10 '>
-            <h1 className='text-6xl font-Lumanosimo underline'>Pasta</h1>
+            <h1 className='text-6xl font-Lumanosimo underline'><span onMouseEnter={textEnter} onMouseLeave={textLeave}>Pasta</span></h1>
              <p className='mt-4 md:ml-24 text-center md:text-left'>Delicious pasta deshes made with fresh, <br className='hidden md:flex' /> authentic ingredients.</p>
-            <div className='my-28'>
+            <div onMouseEnter={slideHove} onMouseLeave={textLeave}  className='my-28'>
                <Swiper
                   spaceBetween={50}
                    grabCursor= {true}
                    scrollbar={{ draggable: true }}
                    resistance={false}
                    freeMode={true} 
-                   freeModeMomentum={true} 
-                   freeModeMomentumRatio={0.5}
                    loop={true}
                    breakpoints={{
                      640: {
